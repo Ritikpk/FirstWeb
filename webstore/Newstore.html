@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kirana Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+           <!-- <h1>New Store</h1> -->
+            <nav>
+                <ul>
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#" class="nav-link">Products</a></li>
+                    <li><a href="#" class="nav-link">About Us</a></li>
+                    <li><a href="#" class="nav-link">Contact</a></li>
+                    <li><a href="#" class="nav-link">Help</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Our New Store</h2>
+<p>We offer a wide range  of Kirana most probably exists only in India, with more than 1.5 crore Kirana stores.</p>
+of daily essentials and groceries.A Kirana store is a general store or shop that provides its customers with daily household and grocery items, like pulses, rice, sugar, shampoo, soap, detergents, etc. The investment determines the store's size. The concept
+</div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product">
+                <h3>Shampoo</h3>
+                <p>Description of Shampoo</p>
+                <p>Price: $10.00</p>
+                <button class="add-to-cart" data-name="Product Name 1" data-price="10.00">Add to Cart</button>
+            </div>
+            <div class="product">
+                <h3>Hair Oil</h3>
+                <p>Description of Hair Oil</p>
+                <p>Price: $15.00</p>
+                <button class="add-to-cart" data-name="Product Name 2" data-price="15.00">Add to Cart</button>
+            </div>
+            <!-- More products can be added similarly -->
+        </div>
+    </section>
+
+    <section id="cart">
+        <div class="container">
+            <h2>Your Cart</h2>
+            <ul id="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </ul>
+            <h3>Total: $<span id="cart-total">0.00</span></h3>
+            <button id="clear-cart">Clear Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Kirana Store. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
